@@ -81,9 +81,9 @@
 
 # 8. Before you run simple_text_mining.py
 ## you should:
-### (1)Ensure your dataset is a csv file, because in this example, I use csv file as my dataset. 
-### (2)If you get error messeges, shut down your Laptop/PC and go to sleep.
-### (3)Just kidding, follow this:
+### (1) Ensure your dataset is a csv file, because in this example, I use csv file as my dataset. 
+### (2) If you get error messeges, shut down your Laptop/PC and go to sleep.
+### (3) Just kidding, follow this:
 	Which package you should install, please refer to requirements.txt
 	windows:
 		double-click package_auto_install.bat
@@ -131,13 +131,13 @@
 		I am not sure if the commands for Anaconda are correct.
 		Because i haven't test it.
 		If you have any problems, contact me.
-### (4)Read all the comments in this .py file.
-### (5)If you cannot understand what those comments meaning or want to learn more detail about this code:
+### (4) Read all the comments in this .py file.
+### (5) If you cannot understand what those comments meaning or want to learn more detail about this code:
 	Ask professor or Dr. Tu.
-### (6)If this code have done, check your folder:
+### (6) If this code have done, check your folder:
 	If there is a file named LDA_Visualization.html, it means your code run successfully.
-### (7)Open LDA_Visualization.html with your browser, you can see the result.
-### (8)If you use notebook like Colab or Jupyter, you can modify your visualization:
+### (7) Open LDA_Visualization.html with your browser, you can see the result.
+### (8) If you use notebook like Colab or Jupyter, you can modify your visualization:
 ###### change those code:
 	visualisation = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word, mds = "mmds")
     pyLDAvis.save_html(visualisation, 'LDA_Visualization.html')
