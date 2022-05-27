@@ -65,9 +65,9 @@
 
 # 6.Another version.
 ## I just release another version use undetected_chromedriver named website_scraper_another_ver.py.
-### You must notice that this version just available in Windows Operation System.
-### If you use others Operation System, ask god for help.
-### Just kidding, follow this:
+#### You must notice that this version just available in Windows Operation System.
+#### If you use others Operation System, ask god for help.
+#### Just kidding, follow this:
 		1.Delete the section i comment "#get chrome version, just available in Windows"
 		2.Check your browser version.
 		3.Edit this line: version = eval(resp.split(".")[0]), the variable "version" must same as your browser.
