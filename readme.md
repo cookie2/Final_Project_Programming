@@ -34,9 +34,10 @@
 		***when you have done, follow the messeges show on your terminal, restart it.***
 
 # 2. Before you run website_scraper.py or website_scraper_another_ver.py.
-## You should:
+## You should do:
 	-Open this .py file by your IDE, such like Python IDLE, Visual Studio Code, Jupyter or something else.
-	-Read all the comments in this .py file.
+	-Read all the comments in this website_scraper.py.
+## You should know:
 	-This example is for chrome user, if you are not, search on browser, how to change selenium setting for different browser.
 	-Cause my poor English, if you cannot understand what those comments meaning, you can contact me or research by yourself.
 
@@ -48,7 +49,7 @@
 	3.You must know the difference between Static Webpage and Dynamic Webpage.
 	4.How to do html syntactic analysis.(In this case, we use python package beautifulSoup4)
 	5.How to do data cleaning.
-## Those are basic requirements for web scraping. If you want to know more, I recommend you just give up.
+### Those are basic requirements for web scraping. If you want to know more, I recommend you just give up.
 ### Joke again, follow this:
 	1.Know how to read messeges from the website in console panel.
 	2.Observe network panel when website is loading so that you can realize where the data came from.
