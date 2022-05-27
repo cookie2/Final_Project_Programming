@@ -7,54 +7,30 @@
 			double-click package_auto_install.bat
 			or
 			open your cmd and input command:
-				pip install --upgrade --user selenium
-				pip install --upgrade --user beautifulSoup4
-				pip install --upgrade --user webdriver_manager
-				pip install --upgrade --user undetected_chromedriver
+				pip install --upgrade --user ***package***
 			or:
-				py -m pip install selenium
-				py -m pip install beautifulSoup4
-				py -m pip install webdriver_manager
-				py -m pip install undetected_chromedriver
+				py -m pip install ***package***
 		
 		Linux:
 			open your terminal and input command:
-				pip install --upgrade selenium
-				pip install --upgrade beautifulSoup4
-				pip install --upgrade webdriver_manager
-				pip install --upgrade undetected_chromedriver
+				pip install --upgrade ***package***
 			or:
-				python3 -m pip install --upgrade selenium
-				python3 -m pip install --upgrade beautifulSoup4
-				python3 -m pip install --upgrade webdriver_manager
-				python3 -m pip install --upgrade undetected_chromedriver
+				python3 -m pip install --upgrade ***package***
 		Mac OS:
 			press command + space bar and type in terminal.
 			click the app icon to open a new terminal window.
 			input command:
-				pip install --upgrade selenium
-				pip install --upgrade beautifulSoup4
-				pip install --upgrade webdriver_manager
-				pip install --upgrade undetected_chromedriver
+				pip install --upgrade ***package***
 			or:
-				python3 -m pip install --upgrade selenium
-				python3 -m pip install --upgrade beautifulSoup4
-				python3 -m pip install --upgrade webdriver_manager
-				python3 -m pip install --upgrade undetected_chromedriver
+				python3 -m pip install --upgrade ***package***
 		
 		if you use Jupyter, create a block and paste:
-			!pip install --upgrade selenium
-			!pip install --upgrade beautifulSoup4
-			!pip install --upgrade webdriver_manager
-			!pip install --upgrade undetected_chromedriver
+			!pip install --upgrade ***package***
 		warning:
 			I am not suggest you use colab, because it will has many problems. 
 
 		else if you use Anaconda, find out your terminal and input those command:
-			pip install --upgrade selenium
-			pip install --upgrade beautifulSoup4
-			pip install --upgrade webdriver_manager
-			pip install --upgrade undetected_chromedriver
+			pip install --upgrade ***package***
 			***when you have done, follow the messeges show on your terminal, restart it.***
 
 2.Before you run website_scraper.py/website_scraper_another_ver.py, you should know:
