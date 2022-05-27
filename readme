@@ -76,6 +76,22 @@
 	4.Know what is multithreading and how to use it.
 	5.Give up.
 
-6.I will upload the text mining code in next release, maybe.
+6.
+I just release another version use undetected_chromedriver.
+But you must notice that this version just available in Windows Operation System.
+If you use others Operation System, ask god for help.
+Just kidding, follow this:
+	1.Delete the section i comment "#get chrome version, just available in Windows"
+	2.Check your browser version.
+	3.Edit this line: version = eval(resp.split(".")[0]), the variable "version" must same as your browser.
+		For example:
+			If your chrome version is 101, then your edition should be:
+				 version = 101
+	4.This version also demonstrate how to use javascript to control website.
+	5.This version scrape target is udemy.
 
-7.Do not run simple_text_mining.py! I haven't finished it.
+7.Important: Do not ask me why cus_resp dosen't work, it's your homework, not mine.
+
+8.I will upload the text mining code in next release, maybe.
+
+9.Do not run simple_text_mining.py! I haven't finished it.
