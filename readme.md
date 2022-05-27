@@ -68,75 +68,75 @@
 #### You must notice that this version just available in Windows Operation System.
 #### If you use others Operation System, ask god for help.
 #### Just kidding, follow this:
-		1.Delete the section i comment "#get chrome version, just available in Windows"
-		2.Check your browser version.
-		3.Edit this line: version = eval(resp.split(".")[0]), the variable "version" must same as your browser.
-			For example:
-				If your chrome version is 101, then your edition should be:
-					version = 101
-		4.This version also demonstrate how to use javascript to control website.
-		5.This version scrape target is udemy.
+	1.Delete the section i comment "#get chrome version, just available in Windows"
+	2.Check your browser version.
+	3.Edit this line: version = eval(resp.split(".")[0]), the variable "version" must same as your browser.
+		For example:
+			If your chrome version is 101, then your edition should be:
+				version = 101
+	4.This version also demonstrate how to use javascript to control website.
+	5.This version scrape target is udemy.
 
 # 7. Give up.
 
-# 8. Before you run simple_text_mining.py, you should know:
-## Ensure your dataset is a csv file, because in this example, I use csv file as my dataset. 
-## If you get error messeges, shut down your Laptop/PC and go to sleep.
-	-Just kidding, follow this:
-		Which package you should install, please refer to requirements.txt
-		windows:
-			double-click package_auto_install.bat
-			or
-			open your cmd and input command:
-				pip install --upgrade --user ***package***
-			After you finished installing, then input: 
-				python -m spacy download en_core_web_sm
-		Linux:
-			open your terminal and input command:
-				pip install --upgrade --user ***package***
-				python -m spacy download en_core_web_sm
-			or:
-				python3 -m pip install --upgrade ***package***
-				python3 -m spacy download en_core_web_sm
-		Warning:
-			I am not sure if the commands for Linux are correct.
-			Because i haven't test it.
-		Mac OS:
-			press command + space bar and type in terminal.
-			click the app icon to open a new terminal window.
-			input command:
-				pip install --upgrade ***package***
-				python -m spacy download en_core_web_sm
-			or:
-				python3 -m pip install --upgrade ***package***
-				python -m spacy download en_core_web_sm
-		Warning: 
-			I am not sure if the commands for Mac OS are correct.
-			Because i am so poor, cannot afford the Macbook.
-		If you use Jupyter, create a block and paste:
-			!pip install --upgrade ***package***
+# 8. Before you run simple_text_mining.py, you should:
+### Ensure your dataset is a csv file, because in this example, I use csv file as my dataset. 
+### If you get error messeges, shut down your Laptop/PC and go to sleep.
+#### Just kidding, follow this:
+	Which package you should install, please refer to requirements.txt
+	windows:
+		double-click package_auto_install.bat
+		or
+		open your cmd and input command:
+			pip install --upgrade --user ***package***
+		After you finished installing, then input: 
 			python -m spacy download en_core_web_sm
-		warning:
-			I am not suggest you use colab, cause it will has many problems.
-		warning:
-			I am not sure if the commands for Jupyter are correct.
-			Because i haven't test it.
-			If you have any problems, contact me.
-		Else if you use Anaconda, find out your terminal and input those command:
+	Linux:
+		open your terminal and input command:
+			pip install --upgrade --user ***package***
+			python -m spacy download en_core_web_sm
+		or:
+			python3 -m pip install --upgrade ***package***
+			python3 -m spacy download en_core_web_sm
+	Warning:
+		I am not sure if the commands for Linux are correct.
+		Because i haven't test it.
+	Mac OS:
+		press command + space bar and type in terminal.
+		click the app icon to open a new terminal window.
+		input command:
 			pip install --upgrade ***package***
 			python -m spacy download en_core_web_sm
-			***when you have done, follow the messeges show on your terminal, restart it.***
-		warning:
-			I am not sure if the commands for Anaconda are correct.
-			Because i haven't test it.
-			If you have any problems, contact me.
-	-Read all the comments in this .py file.
-	-If you cannot understand what those comments meaning or want to learn more detail about this code:
+		or:
+			python3 -m pip install --upgrade ***package***
+			python -m spacy download en_core_web_sm
+	Warning: 
+		I am not sure if the commands for Mac OS are correct.
+		Because i am so poor, cannot afford the Macbook.
+	If you use Jupyter, create a block and paste:
+		!pip install --upgrade ***package***
+		python -m spacy download en_core_web_sm
+	warning:
+		I am not suggest you use colab, cause it will has many problems.
+	warning:
+		I am not sure if the commands for Jupyter are correct.
+		Because i haven't test it.
+		If you have any problems, contact me.
+	Else if you use Anaconda, find out your terminal and input those command:
+		pip install --upgrade ***package***
+		python -m spacy download en_core_web_sm
+		***when you have done, follow the messeges show on your terminal, restart it.***
+	warning:
+		I am not sure if the commands for Anaconda are correct.
+		Because i haven't test it.
+		If you have any problems, contact me.
+#### Read all the comments in this .py file.
+#### If you cannot understand what those comments meaning or want to learn more detail about this code:
 		Ask professor or Dr. Tu.
-	-If this code have done, check your folder:
+#### If this code have done, check your folder:
 		If there is a file named LDA_Visualization.html, it means your code run successfully.
-	-Open LDA_Visualization.html with your browser, you can see the result.
-	-If you use notebook like Colab or Jupyter, you can modify your visualization:
+#### Open LDA_Visualization.html with your browser, you can see the result.
+#### If you use notebook like Colab or Jupyter, you can modify your visualization:
 		change those code:
 
 		visualisation = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word, mds = "mmds")
