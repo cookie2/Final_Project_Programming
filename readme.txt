@@ -63,7 +63,7 @@
 		5.How to do data cleaning.
 	There are basic requirements for web scraping. If you want to know more, I recommend you just give up.
 	Joke again, follow this:
-		1.Know how to read messege from website in console panel.
+		1.Know how to read messeges from the website in console panel.
 		2.Observe network panel when website is loading so that you can realize where the data came from.
 		3.Find ways to catch the information you want.
 
