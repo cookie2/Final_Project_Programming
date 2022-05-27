@@ -138,15 +138,16 @@
 	-Open LDA_Visualization.html with your browser, you can see the result.
 	-If you use notebook like Colab or Jupyter, you can modify your visualization:
 		change those code:
-
+```python
 		visualisation = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word, mds = "mmds")
     	pyLDAvis.save_html(visualisation, 'LDA_Visualization.html')
-
+```
 		to:
-
+```python
 		pyLDAvis.enable_notebook()
 		visualisation = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
 		visualisation
+```
 
 # 9. You still need to realize:
 ## It also just a simple code, Natural Language Processing is more complex than you thought. If you are instersing in. Ask Professor or give up.
