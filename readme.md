@@ -3,8 +3,8 @@
 # 1. Make sure you have installed all packages. 
 ## Which package you should install, please refer to requirements.txt
 ## if not, follow this:
-**windows**:
-	double-click package_auto_install.bat
+	windows:
+		double-click package_auto_install.bat
 		or
 		open your cmd and input command:
 			pip install --upgrade --user ***package***
