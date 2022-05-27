@@ -67,7 +67,7 @@
 
 4.Give up.
 
-5.If you still not give up, follow this:
+5.If you still insist, follow this:
 	1.Research how the website backend works.
 	2.Research what is Communications Protocol.
 	3.Enhance your programming ability.
