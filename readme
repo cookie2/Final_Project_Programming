@@ -47,15 +47,15 @@
 			!pip install --upgrade beautifulSoup4
 			!pip install --upgrade webdriver_manager
 			!pip install --upgrade undetected_chromedriver
-		warning: i am not suggest you use colab, cause it will has many problems. 
+		warning:
+			I am not suggest you use colab, because it will has many problems. 
 
 		else if you use Anaconda, find out your terminal and input those command:
 			pip install --upgrade selenium
 			pip install --upgrade beautifulSoup4
 			pip install --upgrade webdriver_manager
 			pip install --upgrade undetected_chromedriver
-			
-			when you have done, follow the response show on your terminal, restart it.
+			***when you have done, follow the messeges show on your terminal, restart it.***
 
 2.Before you run website_scraper.py/website_scraper_another_ver.py, you should know:
 	-Open this .py file by your IDE, such like Python IDLE, Visual Studio Code, Jupyter or something else.
@@ -120,7 +120,9 @@ Just kidding, follow this:
 				or:
 					python3 -m pip install --upgrade ***package***
 					python3 -m spacy download en_core_web_sm
-			Warning: I am not sure if the commands for Linux are correct, cause i haven't test it.
+			Warning:
+				I am not sure if the commands for Linux are correct.
+				Because i haven't test it.
 			Mac OS:
 				press command + space bar and type in terminal.
 				click the app icon to open a new terminal window.
@@ -130,19 +132,31 @@ Just kidding, follow this:
 				or:
 					python3 -m pip install --upgrade ***package***
 					python -m spacy download en_core_web_sm
-			Warning: I am not sure if the commands for Mac OS are correct, cause i am so poor, cannot afford the Macbook.
+			Warning: 
+				I am not sure if the commands for Mac OS are correct.
+				Because i am so poor, cannot afford the Macbook.
 			if you use Jupyter, create a block and paste:
 				!pip install --upgrade ***package***
 				python -m spacy download en_core_web_sm
-			warning: i am not suggest you use colab, cause it will has many problems.
-			warning: I am not sure if the commands for Jupyter are correct, cause i haven't test it, if you have any problems, contact me.
+			warning:
+				I am not suggest you use colab, cause it will has many problems.
+			warning:
+				I am not sure if the commands for Jupyter are correct.
+				Because i haven't test it.
+				If you have any problems, contact me.
 			else if you use Anaconda, find out your terminal and input those command:
 				pip install --upgrade ***package***
 				python -m spacy download en_core_web_sm
-			warning: I am not sure if the commands for Anaconda are correct, cause i haven't test it, if you have any problems, contact me.
+				***when you have done, follow the messeges show on your terminal, restart it.***
+			warning:
+				I am not sure if the commands for Anaconda are correct.
+				Because i haven't test it.
+				If you have any problems, contact me.
 	-Read all the comments in this .py file.
-	-If you cannot understand what those comments meaning or want to learn more detail about this code, you can ask professor or Dr. Tu.
-	-If this code have done, check your folder. If there is a file named LDA_Visualization.html, it means your code run successfully.
+	-If you cannot understand what those comments meaning or want to learn more detail about this code:
+		Ask professor or Dr. Tu.
+	-If this code have done, check your folder:
+		If there is a file named LDA_Visualization.html, it means your code run successfully.
 	-Open LDA_Visualization.html with your browser, you can see the result.
 
 9.You still need to realize it just an simple code, Natural Language Processing is more complex than you thought. If you are instersing in. Ask Professor or give up.
