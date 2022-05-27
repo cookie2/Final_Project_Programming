@@ -24,18 +24,18 @@ driver = webdriver.Chrome(executable_path=ChromeDriverManager().install())
 
 # pass the url and get source page
 def html_code(url):
-    driver.get(url)
-    # wait website load it's resource
-    time.sleep(15)
-    
-    #action you want to do on this website
-    #element = driver.find_element(By.XPATH, '//*[@id="reviews-medley-footer"]/div[2]/a')
-    #element.click()
-    #driver.execute_script("arguments[0].click();", userName)
-    #time.sleep(10)
-    
     #try to get source
     try:
+        driver.get(url)
+        # wait website load it's resource
+        time.sleep(15)
+
+        #action you want to do on this website
+        #element = driver.find_element(By.XPATH, '//*[@id="reviews-medley-footer"]/div[2]/a')
+        #element.click()
+        #driver.execute_script("arguments[0].click();", userName)
+        #time.sleep(10)
+
         soup = BeautifulSoup(driver.page_source, 'html.parser')
         return (soup)
     except:
