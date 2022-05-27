@@ -39,20 +39,24 @@ def html_code(url):
         soup = BeautifulSoup(driver.page_source, 'html.parser')
         return (soup)
     except:
-        error_msg = str(sys.exc_info())
+        print(str(sys.exc_info()))
         return False
 
 # some character may caused problem in csv, we should handle it first
 def handle_unacceptable_char(string):
+    # delete html tag contain in string
     pattern = re.compile(r'<[^>]+>',re.S)
     resp = pattern.sub('', string)
+    # delete newline punctuation
     resp = resp.replace("\n", "")
     resp = resp.replace("\r", "")
+    #return data, data type is string
     return resp 
 
 # find the html tag and clear it, edit this section to meet your needs
 def cus_resp(soup):
     result = []
+    # in this case, i get my target from element's class name, refer to the selenium find functions
     for item in soup.find_all("div", class_="a-expander-content reviewText review-text-content a-expander-partial-collapse-content"):
         data_str = item.find_all("span")[-1].text
         # note: because  ',' may contain in review sentence, so we should handle it first or use  special characters as delimiter when you export your result as a csv file
