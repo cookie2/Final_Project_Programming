@@ -75,3 +75,5 @@
 	5.Give up.
 
 6.I will upload the text mining code in next commit, maybe.
+
+7.Do not run simple_text_mining.py! I haven't finished it.
