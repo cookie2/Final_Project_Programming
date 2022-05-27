@@ -1,8 +1,8 @@
 # 0.Check if you have installed python3. If not, installed it.
 
 # 1.Make sure you have installed all packages. 
+	## Which package you should install, please refer to requirements.txt
 	if not, follow this:
-		**Which package you should install, please refer to requirements.txt**
 		windows:
 			double-click package_auto_install.bat
 			or
