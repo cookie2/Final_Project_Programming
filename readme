@@ -9,20 +9,24 @@
 				pip install --upgrade --user selenium
 				pip install --upgrade --user beautifulSoup4
 				pip install --upgrade --user webdriver_manager
+				pip install --upgrade --user undetected_chromedriver
 			or:
 				py -m pip install selenium
 				py -m pip install beautifulSoup4
 				py -m pip install webdriver_manager
+				py -m pip install undetected_chromedriver
 		
 		Linux:
 			open your terminal and input command:
 				pip install --upgrade selenium
 				pip install --upgrade beautifulSoup4
 				pip install --upgrade webdriver_manager
+				pip install --upgrade undetected_chromedriver
 			or:
 				python3 -m pip install --upgrade selenium
 				python3 -m pip install --upgrade beautifulSoup4
 				python3 -m pip install --upgrade webdriver_manager
+				python3 -m pip install --upgrade undetected_chromedriver
 		Mac OS:
 			press command + space bar and type in terminal.
 			click the app icon to open a new terminal window.
@@ -30,25 +34,29 @@
 				pip install --upgrade selenium
 				pip install --upgrade beautifulSoup4
 				pip install --upgrade webdriver_manager
+				pip install --upgrade undetected_chromedriver
 			or:
 				python3 -m pip install --upgrade selenium
 				python3 -m pip install --upgrade beautifulSoup4
 				python3 -m pip install --upgrade webdriver_manager
+				python3 -m pip install --upgrade undetected_chromedriver
 		
 		if you use jupyter, create a block and paste:
 			!pip install --upgrade selenium
 			!pip install --upgrade beautifulSoup4
 			!pip install --upgrade webdriver_manager
+			!pip install --upgrade undetected_chromedriver
 		warning: i am not suggest you use colab, cause it will has many problems. 
 
 		else if you use anaconda, find out your terminal and input those command:
 			pip install --upgrade selenium
 			pip install --upgrade beautifulSoup4
 			pip install --upgrade webdriver_manager
+			pip install --upgrade undetected_chromedriver
 			
 			when you have done, follow the response show on your terminal, restart it.
 
-2.Before you run website_scraper.py, you should know:
+2.Before you run website_scraper.py/website_scraper_another_ver.py, you should know:
 	-Open this .py file by your IDE, such like Python IDLE, Visual Studio Code, Jupyter or something else.
 	-Read all the comments in this .py file.
 	-This example is for chrome user, if you are not, search on browser, how to change selenium setting for different browser.
@@ -77,7 +85,7 @@
 	5.Give up.
 
 6.
-I just release another version use undetected_chromedriver.
+I just release another version use undetected_chromedriver named website_scraper_another_ver.py.
 But you must notice that this version just available in Windows Operation System.
 If you use others Operation System, ask god for help.
 Just kidding, follow this:
