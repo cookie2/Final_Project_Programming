@@ -34,7 +34,7 @@
 		***when you have done, follow the messeges show on your terminal, restart it.***
 
 # 2. Before you run website_scraper.py or website_scraper_another_ver.py.
-## you should know:
+## you should:
 	-Open this .py file by your IDE, such like Python IDLE, Visual Studio Code, Jupyter or something else.
 	-Read all the comments in this .py file.
 	-This example is for chrome user, if you are not, search on browser, how to change selenium setting for different browser.
@@ -79,10 +79,11 @@
 
 # 7. Give up.
 
-# 8. Before you run simple_text_mining.py, you should:
+# 8. Before you run simple_text_mining.py
+## you should:
 ### Ensure your dataset is a csv file, because in this example, I use csv file as my dataset. 
 ### If you get error messeges, shut down your Laptop/PC and go to sleep.
-#### Just kidding, follow this:
+### Just kidding, follow this:
 	Which package you should install, please refer to requirements.txt
 	windows:
 		double-click package_auto_install.bat
@@ -130,23 +131,20 @@
 		I am not sure if the commands for Anaconda are correct.
 		Because i haven't test it.
 		If you have any problems, contact me.
-#### Read all the comments in this .py file.
-#### If you cannot understand what those comments meaning or want to learn more detail about this code:
-		Ask professor or Dr. Tu.
-#### If this code have done, check your folder:
-		If there is a file named LDA_Visualization.html, it means your code run successfully.
-#### Open LDA_Visualization.html with your browser, you can see the result.
-#### If you use notebook like Colab or Jupyter, you can modify your visualization:
-		change those code:
-
-		visualisation = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word, mds = "mmds")
-    	pyLDAvis.save_html(visualisation, 'LDA_Visualization.html')
-
-		to:
-		
-		pyLDAvis.enable_notebook()
-		visualisation = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
-		visualisation
+### Read all the comments in this .py file.
+### If you cannot understand what those comments meaning or want to learn more detail about this code:
+	Ask professor or Dr. Tu.
+### If this code have done, check your folder:
+	If there is a file named LDA_Visualization.html, it means your code run successfully.
+### Open LDA_Visualization.html with your browser, you can see the result.
+### If you use notebook like Colab or Jupyter, you can modify your visualization:
+change those code:
+	visualisation = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word, mds = "mmds")
+    pyLDAvis.save_html(visualisation, 'LDA_Visualization.html')
+to:
+	pyLDAvis.enable_notebook()
+	visualisation = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
+	visualisation
 
 # 9. You still need to realize:
 ## It also just a simple code, Natural Language Processing is more complex than you thought. If you are instersing in. Ask Professor or give up.
