@@ -2,3 +2,10 @@ selenium
 beautifulSoup4
 webdriver_manager
 undetected_chromedriver
+numpy
+pandas
+gensim
+spacy
+pyLDAvis
+matplotlib
+nltk

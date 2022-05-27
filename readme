@@ -2,6 +2,7 @@
 
 1.Make sure you have installed all packages this program required. 
 	if not, follow this:
+		// Which package you should install, please refer to requirements.txt
 		windows:
 			double-click package_auto_install.bat
 			or
@@ -41,14 +42,14 @@
 				python3 -m pip install --upgrade webdriver_manager
 				python3 -m pip install --upgrade undetected_chromedriver
 		
-		if you use jupyter, create a block and paste:
+		if you use Jupyter, create a block and paste:
 			!pip install --upgrade selenium
 			!pip install --upgrade beautifulSoup4
 			!pip install --upgrade webdriver_manager
 			!pip install --upgrade undetected_chromedriver
 		warning: i am not suggest you use colab, cause it will has many problems. 
 
-		else if you use anaconda, find out your terminal and input those command:
+		else if you use Anaconda, find out your terminal and input those command:
 			pip install --upgrade selenium
 			pip install --upgrade beautifulSoup4
 			pip install --upgrade webdriver_manager
@@ -98,8 +99,52 @@ Just kidding, follow this:
 	4.This version also demonstrate how to use javascript to control website.
 	5.This version scrape target is udemy.
 
-7.I will upload the text mining code in next release, maybe.
+7.Give up.
 
-8.I already gave up.
+8.Before you run simple_text_mining.py, you should know:
+	-Ensure your dataset is a csv file, because in this example, I use csv file as my dataset. 
+	-If you get error messeges, shut down your Laptop/PC and go to sleep.
+		Just kidding, follow this:
+			// Which package you should install, please refer to requirements.txt
+			windows:
+				double-click package_auto_install.bat
+				or
+				open your cmd and input command:
+					pip install --upgrade --user ***package***
+				After you finished installing, then input: 
+					python -m spacy download en_core_web_sm
+			Linux:
+				open your terminal and input command:
+					pip install --upgrade --user ***package***
+					python -m spacy download en_core_web_sm
+				or:
+					python3 -m pip install --upgrade ***package***
+					python3 -m spacy download en_core_web_sm
+			Warning: I am not sure if the commands for Linux are correct, cause i haven't test it.
+			Mac OS:
+				press command + space bar and type in terminal.
+				click the app icon to open a new terminal window.
+				input command:
+					pip install --upgrade ***package***
+					python -m spacy download en_core_web_sm
+				or:
+					python3 -m pip install --upgrade ***package***
+					python -m spacy download en_core_web_sm
+			Warning: I am not sure if the commands for Mac OS are correct, cause i am so poor, cannot afford the Macbook.
+			if you use Jupyter, create a block and paste:
+				!pip install --upgrade ***package***
+				python -m spacy download en_core_web_sm
+			warning: i am not suggest you use colab, cause it will has many problems.
+			warning: I am not sure if the commands for Jupyter are correct, cause i haven't test it, if you have any problems, contact me.
+			else if you use Anaconda, find out your terminal and input those command:
+				pip install --upgrade ***package***
+				python -m spacy download en_core_web_sm
+			warning: I am not sure if the commands for Anaconda are correct, cause i haven't test it, if you have any problems, contact me.
+	-Read all the comments in this .py file.
+	-If you cannot understand what those comments meaning or want to learn more detail about this code, you can ask professor or Dr. Tu.
+	-If this code have done, check your folder. If there is a file named LDA_Visualization.html, it means your code run successfully.
+	-Open LDA_Visualization.html with your browser, you can see the result.
 
-9.Do not run simple_text_mining.py! I haven't finished it.
+9.You still need to realize it just an simple code, Natural Language Processing is more complex than you thought. If you are instersing in. Ask Professor or give up.
+
+10.I do not have any quotes, give up.

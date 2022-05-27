@@ -1,22 +1,22 @@
-#for system, do not edit it
+# for system, do not edit it
 import time
 import pathlib
 import sys
 import ssl
 from win32com.client import Dispatch
-#if you want to export result by csv, add this line:
+# if you want to export result by csv, add this line:
 import csv
 # in that case, this package is used for edit our string
 import re
-#the package which is uesd for retrieval elements from website
+# the package which is uesd for retrieval elements from website
 from bs4 import BeautifulSoup
-#selenium, is used for simulate a browser
+# selenium, is used for simulate a browser
 import undetected_chromedriver.v2 as uc
 
 # fake SSL request, do not edit it
 ssl._create_default_https_context = ssl._create_unverified_context
 
-#get chrome version, just available in Windows
+# get chrome version, just available in Windows
 parser = Dispatch("Scripting.FileSystemObject")
 resp = ""
 try:
@@ -86,6 +86,8 @@ def export_to_csv(data):
     # open recoardfile, if this file dose not exist then create one
     with open(recoardfile , 'w', encoding="utf-8", newline='') as file:
         mywriter = csv.writer(file, delimiter=',', quotechar='"')
+        # write csv colume's header
+        mywriter.writerow(["review"])
         for row in data:
             # waring: in this case, 'data' is a string array' so that 'row' is string, you should edit this line according to your data type 
             mywriter.writerow([row])
