@@ -138,15 +138,15 @@
 	If there is a file named LDA_Visualization.html, it means your code run successfully.
 ### 7.Open LDA_Visualization.html with your browser, you can see the result.
 ### 8.If you use notebook like Colab or Jupyter, you can modify your visualization:
-change those code:
-	visualisation = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word, mds = "mmds")
-    pyLDAvis.save_html(visualisation, 'LDA_Visualization.html')
-to:
-	pyLDAvis.enable_notebook()
-	visualisation = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
-	visualisation
+	change those code:
+		visualisation = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word, mds = "mmds")
+    	pyLDAvis.save_html(visualisation, 'LDA_Visualization.html')
+	to:
+		pyLDAvis.enable_notebook()
+		visualisation = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
+		visualisation
 
 # 9. You still need to realize:
-## It also just a simple code, Natural Language Processing is more complex than you thought. If you are instersing in. Ask Professor or give up.
+## It also a simple code, Natural Language Processing is more complex than you thought. If you are instersing in. Ask Professor or give up.
 
 # 10. I do not have any quotes, give up.
