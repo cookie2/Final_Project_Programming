@@ -49,7 +49,7 @@
 2.Before you run website_scraper.py, you should know:
 	-Open this .py file by your IDE, such like Python IDLE, Visual Studio Code, Jupyter or something else.
 	-Read all the comments in this .py file.
-	-This example is for chrome user, if you are not, search to how change selenium setting for different browser.
+	-This example is for chrome user, if you are not, search on browser, how to change selenium setting for different browser.
 	-Cause my poor English, if you cannot understand what those comments meaning, you can contact me or research by yourself.
 
 3.You should realize it just an simple code, web scraping is more complex than you thought. If you are instersing in. Ask Professor or give up.
