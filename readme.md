@@ -42,7 +42,7 @@
 
 # 3. You should realize:
 ## It just a simple code, web scraping is more complex than you thought. If you are instersing in. Ask Professor or give up.
-### Just kidding, here is the direction:
+*Just kidding, here is the direction:
 	*1.If you not familiar with website structure, you should learn it.(Keyword: html, css and javascript)
 	*2.You should know what is html element.
 	*3.You must know the difference between Static Webpage and Dynamic Webpage.
