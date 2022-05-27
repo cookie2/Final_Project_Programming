@@ -41,8 +41,7 @@
 	-Cause my poor English, if you cannot understand what those comments meaning, you can contact me or research by yourself.
 
 # 3. You should realize:
-## It just an simple code, web scraping is more complex than you thought. 
-## If you are instersing in. Ask Professor or give up.
+## It just an simple code, web scraping is more complex than you thought. If you are instersing in. Ask Professor or give up.
 	Just kidding, here is the direction:
 		1.If you not familiar with website structure, you should learn it.(Keyword: html, css and javascript)
 		2.You should know what is html element.
@@ -64,18 +63,19 @@
 	4.Know what is multithreading and how to use it.
 	5.Give up.
 
-# 6. I just release another version use undetected_chromedriver named website_scraper_another_ver.py.
-But you must notice that this version just available in Windows Operation System.
-If you use others Operation System, ask god for help.
-Just kidding, follow this:
-	1.Delete the section i comment "#get chrome version, just available in Windows"
-	2.Check your browser version.
-	3.Edit this line: version = eval(resp.split(".")[0]), the variable "version" must same as your browser.
-		For example:
-			If your chrome version is 101, then your edition should be:
-				 version = 101
-	4.This version also demonstrate how to use javascript to control website.
-	5.This version scrape target is udemy.
+# 6.Another version.
+## I just release another version use undetected_chromedriver named website_scraper_another_ver.py.
+	-You must notice that this version just available in Windows Operation System.
+	-If you use others Operation System, ask god for help.
+	-Just kidding, follow this:
+		1.Delete the section i comment "#get chrome version, just available in Windows"
+		2.Check your browser version.
+		3.Edit this line: version = eval(resp.split(".")[0]), the variable "version" must same as your browser.
+			For example:
+				If your chrome version is 101, then your edition should be:
+					version = 101
+		4.This version also demonstrate how to use javascript to control website.
+		5.This version scrape target is udemy.
 
 # 7. Give up.
 
