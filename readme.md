@@ -1,8 +1,8 @@
 # 0.Check if you have installed python3. If not, installed it.
 
 # 1. Make sure you have installed all packages. 
-## Which package you should install, please refer to requirements.txt
-## if not, follow this:
+## Which package you should install, please refer to "requirements.txt".
+## If not, follow this:
 	windows:
 		double-click package_auto_install.bat
 		or
@@ -34,7 +34,7 @@
 		***when you have done, follow the messeges show on your terminal, restart it.***
 
 # 2. Before you run website_scraper.py or website_scraper_another_ver.py.
-## you should:
+## You should:
 	-Open this .py file by your IDE, such like Python IDLE, Visual Studio Code, Jupyter or something else.
 	-Read all the comments in this .py file.
 	-This example is for chrome user, if you are not, search on browser, how to change selenium setting for different browser.
@@ -48,7 +48,7 @@
 	3.You must know the difference between Static Webpage and Dynamic Webpage.
 	4.How to do html syntactic analysis.(In this case, we use python package beautifulSoup4)
 	5.How to do data cleaning.
-## There are basic requirements for web scraping. If you want to know more, I recommend you just give up.
+## Those are basic requirements for web scraping. If you want to know more, I recommend you just give up.
 ### Joke again, follow this:
 	1.Know how to read messeges from the website in console panel.
 	2.Observe network panel when website is loading so that you can realize where the data came from.
@@ -138,13 +138,13 @@
 	If there is a file named LDA_Visualization.html, it means your code run successfully.
 ### 7.Open LDA_Visualization.html with your browser, you can see the result.
 ### 8.If you use notebook like Colab or Jupyter, you can modify your visualization:
-	change those code:
-		visualisation = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word, mds = "mmds")
-    	pyLDAvis.save_html(visualisation, 'LDA_Visualization.html')
-	to:
-		pyLDAvis.enable_notebook()
-		visualisation = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
-		visualisation
+###### change those code:
+	visualisation = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word, mds = "mmds")
+    pyLDAvis.save_html(visualisation, 'LDA_Visualization.html')
+###### to:
+	pyLDAvis.enable_notebook()
+	visualisation = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
+	visualisation
 
 # 9. You still need to realize:
 ## It also a simple code, Natural Language Processing is more complex than you thought. If you are instersing in. Ask Professor or give up.
