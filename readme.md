@@ -41,7 +41,7 @@
 	-Cause my poor English, if you cannot understand what those comments meaning, you can contact me or research by yourself.
 
 # 3. You should realize:
-## It just an simple code, web scraping is more complex than you thought. If you are instersing in. Ask Professor or give up.
+## It just a simple code, web scraping is more complex than you thought. If you are instersing in. Ask Professor or give up.
 	Just kidding, here is the direction:
 		1.If you not familiar with website structure, you should learn it.(Keyword: html, css and javascript)
 		2.You should know what is html element.
@@ -80,56 +80,56 @@
 # 7. Give up.
 
 # 8. Before you run simple_text_mining.py, you should know:
-	-Ensure your dataset is a csv file, because in this example, I use csv file as my dataset. 
-	-If you get error messeges, shut down your Laptop/PC and go to sleep.
-		Just kidding, follow this:
-			// Which package you should install, please refer to requirements.txt
-			windows:
-				double-click package_auto_install.bat
-				or
-				open your cmd and input command:
-					pip install --upgrade --user ***package***
-				After you finished installing, then input: 
-					python -m spacy download en_core_web_sm
-			Linux:
-				open your terminal and input command:
-					pip install --upgrade --user ***package***
-					python -m spacy download en_core_web_sm
-				or:
-					python3 -m pip install --upgrade ***package***
-					python3 -m spacy download en_core_web_sm
-			Warning:
-				I am not sure if the commands for Linux are correct.
-				Because i haven't test it.
-			Mac OS:
-				press command + space bar and type in terminal.
-				click the app icon to open a new terminal window.
-				input command:
-					pip install --upgrade ***package***
-					python -m spacy download en_core_web_sm
-				or:
-					python3 -m pip install --upgrade ***package***
-					python -m spacy download en_core_web_sm
-			Warning: 
-				I am not sure if the commands for Mac OS are correct.
-				Because i am so poor, cannot afford the Macbook.
-			if you use Jupyter, create a block and paste:
-				!pip install --upgrade ***package***
+## Ensure your dataset is a csv file, because in this example, I use csv file as my dataset. 
+## If you get error messeges, shut down your Laptop/PC and go to sleep.
+	-Just kidding, follow this:
+		Which package you should install, please refer to requirements.txt
+		windows:
+			double-click package_auto_install.bat
+			or
+			open your cmd and input command:
+				pip install --upgrade --user ***package***
+			After you finished installing, then input: 
 				python -m spacy download en_core_web_sm
-			warning:
-				I am not suggest you use colab, cause it will has many problems.
-			warning:
-				I am not sure if the commands for Jupyter are correct.
-				Because i haven't test it.
-				If you have any problems, contact me.
-			else if you use Anaconda, find out your terminal and input those command:
+		Linux:
+			open your terminal and input command:
+				pip install --upgrade --user ***package***
+				python -m spacy download en_core_web_sm
+			or:
+				python3 -m pip install --upgrade ***package***
+				python3 -m spacy download en_core_web_sm
+		Warning:
+			I am not sure if the commands for Linux are correct.
+			Because i haven't test it.
+		Mac OS:
+			press command + space bar and type in terminal.
+			click the app icon to open a new terminal window.
+			input command:
 				pip install --upgrade ***package***
 				python -m spacy download en_core_web_sm
-				***when you have done, follow the messeges show on your terminal, restart it.***
-			warning:
-				I am not sure if the commands for Anaconda are correct.
-				Because i haven't test it.
-				If you have any problems, contact me.
+			or:
+				python3 -m pip install --upgrade ***package***
+				python -m spacy download en_core_web_sm
+		Warning: 
+			I am not sure if the commands for Mac OS are correct.
+			Because i am so poor, cannot afford the Macbook.
+		If you use Jupyter, create a block and paste:
+			!pip install --upgrade ***package***
+			python -m spacy download en_core_web_sm
+		warning:
+			I am not suggest you use colab, cause it will has many problems.
+		warning:
+			I am not sure if the commands for Jupyter are correct.
+			Because i haven't test it.
+			If you have any problems, contact me.
+		Else if you use Anaconda, find out your terminal and input those command:
+			pip install --upgrade ***package***
+			python -m spacy download en_core_web_sm
+			***when you have done, follow the messeges show on your terminal, restart it.***
+		warning:
+			I am not sure if the commands for Anaconda are correct.
+			Because i haven't test it.
+			If you have any problems, contact me.
 	-Read all the comments in this .py file.
 	-If you cannot understand what those comments meaning or want to learn more detail about this code:
 		Ask professor or Dr. Tu.
@@ -148,6 +148,7 @@
 		visualisation = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
 		visualisation
 
-# 9. You still need to realize it just an simple code, Natural Language Processing is more complex than you thought. If you are instersing in. Ask Professor or give up.
+# 9. You still need to realize:
+## It also just a simple code, Natural Language Processing is more complex than you thought. If you are instersing in. Ask Professor or give up.
 
 # 10. I do not have any quotes, give up.
