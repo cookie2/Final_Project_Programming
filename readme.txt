@@ -1,4 +1,4 @@
-0.Check if you have installed python3, if not. installed it.
+0.Check if you have installed python3. If not, installed it.
 
 1.Make sure you have installed all packages this program required. 
 	if not, follow this:
@@ -16,9 +16,9 @@
 		
 		Linux:
 			open your terminal and input command:
-				pip install pip install --upgrade selenium
-				pip install pip install --upgrade beautifulSoup4
-				pip install pip install --upgrade webdriver_manager
+				pip install --upgrade selenium
+				pip install --upgrade beautifulSoup4
+				pip install --upgrade webdriver_manager
 			or:
 				python3 -m pip install --upgrade selenium
 				python3 -m pip install --upgrade beautifulSoup4
@@ -27,13 +27,24 @@
 			press command + space bar and type in terminal.
 			click the app icon to open a new terminal window.
 			input command:
-				pip install pip install --upgrade selenium
-				pip install pip install --upgrade beautifulSoup4
-				pip install pip install --upgrade webdriver_manager
+				pip install --upgrade selenium
+				pip install --upgrade beautifulSoup4
+				pip install --upgrade webdriver_manager
 			or:
 				python3 -m pip install --upgrade selenium
 				python3 -m pip install --upgrade beautifulSoup4
 				python3 -m pip install --upgrade webdriver_manager
+		
+		if you use jupyter, create a block and paste:
+			!pip install --upgrade selenium
+			!pip install --upgrade beautifulSoup4
+			!pip install --upgrade webdriver_manager
+		warning: i am not suggest you use colab, cause it will has many problems. 
+
+		else if you use anaconda, find out your terminal and input those command:
+			pip install --upgrade selenium
+			pip install --upgrade beautifulSoup4
+			pip install --upgrade webdriver_manager
 
 2.Before you run website_scraper.py, you should know:
 	-Open this .py file by your IDE, such like Python IDLE, Visual Studio Code, Jupyter or something else.
@@ -48,7 +59,7 @@
 		3.You must know the difference between Static Webpage and Dynamic Webpage.
 		4.How to do html syntactic analysis.(In this case, we use python package beautifulSoup4)
 		5.How to do data cleaning.
-	There are basic requirements for web scraping.If you want to know more, I recommand you just give up.
+	There are basic requirements for web scraping. If you want to know more, I recommend you just give up.
 	Joke again, follow this:
 		1.Know how to read messege from website in console panel.
 		2.Observe network panel when website is loading so that you can realize where does data came from.
@@ -58,7 +69,9 @@
 
 5.If you still not give up, follow this:
 	1.Research how the website backend works.
-	2.Research Communications Protocol.
-	3.Give up.
+	2.Research what is Communications Protocol.
+	3.Enhance your programming ability.
+	4.Know what is multithreading and how to use it.
+	5.Give up.
 
-6.I will upload the text mining code in next commit, maybe. 
+6.I will upload the text mining code in next commit, maybe.
