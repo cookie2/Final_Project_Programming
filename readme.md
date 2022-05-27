@@ -3,11 +3,11 @@
 # 1. Make sure you have installed all packages. 
 ## Which package you should install, please refer to requirements.txt
 ## if not, follow this:
->windows:
->>double-click package_auto_install.bat
->>or
->>>open your cmd and input command:
->>>>pip install --upgrade --user ***package***
+	windows:
+		double-click package_auto_install.bat
+		or
+		open your cmd and input command:
+			pip install --upgrade --user ***package***
 		or:
 			py -m pip install ***package***
 		
@@ -42,12 +42,12 @@
 
 # 3. You should realize:
 ## It just a simple code, web scraping is more complex than you thought. If you are instersing in. Ask Professor or give up.
-	Just kidding, here is the direction:
-		1.If you not familiar with website structure, you should learn it.(Keyword: html, css and javascript)
-		2.You should know what is html element.
-		3.You must know the difference between Static Webpage and Dynamic Webpage.
-		4.How to do html syntactic analysis.(In this case, we use python package beautifulSoup4)
-		5.How to do data cleaning.
+>Just kidding, here is the direction:
+>>1.If you not familiar with website structure, you should learn it.(Keyword: html, css and javascript)
+>>2.You should know what is html element.
+>>3.You must know the difference between Static Webpage and Dynamic Webpage.
+>>4.How to do html syntactic analysis.(In this case, we use python package beautifulSoup4)
+>>5.How to do data cleaning.
 ## There are basic requirements for web scraping. If you want to know more, I recommend you just give up.
 	Joke again, follow this:
 		1.Know how to read messeges from the website in console panel.
@@ -143,7 +143,7 @@
     	pyLDAvis.save_html(visualisation, 'LDA_Visualization.html')
 
 		to:
-
+		
 		pyLDAvis.enable_notebook()
 		visualisation = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
 		visualisation
