@@ -24,29 +24,32 @@
 		or:
 			python3 -m pip install --upgrade ***package***
 		
-	if you use Jupyter, create a block and paste:
+	If you use Jupyter, create a block and paste:
 		!pip install --upgrade ***package***
 	warning:
 		I am not suggest you use colab, because it will has many problems. 
 
-	else if you use Anaconda, find out your terminal and input those command:
+	Else if you use Anaconda, find out your terminal and input those command:
 		pip install --upgrade ***package***
 		***when you have done, follow the messeges show on your terminal, restart it.***
 
-# 2. Before you run website_scraper.py/website_scraper_another_ver.py, you should know:
+# 2. Before you run website_scraper.py or website_scraper_another_ver.py.
+## you should know:
 	-Open this .py file by your IDE, such like Python IDLE, Visual Studio Code, Jupyter or something else.
 	-Read all the comments in this .py file.
 	-This example is for chrome user, if you are not, search on browser, how to change selenium setting for different browser.
 	-Cause my poor English, if you cannot understand what those comments meaning, you can contact me or research by yourself.
 
-# 3. You should realize it just an simple code, web scraping is more complex than you thought. If you are instersing in. Ask Professor or give up.
+# 3. You should realize:
+## It just an simple code, web scraping is more complex than you thought. 
+## If you are instersing in. Ask Professor or give up.
 	Just kidding, here is the direction:
 		1.If you not familiar with website structure, you should learn it.(Keyword: html, css and javascript)
 		2.You should know what is html element.
 		3.You must know the difference between Static Webpage and Dynamic Webpage.
 		4.How to do html syntactic analysis.(In this case, we use python package beautifulSoup4)
 		5.How to do data cleaning.
-	There are basic requirements for web scraping. If you want to know more, I recommend you just give up.
+## There are basic requirements for web scraping. If you want to know more, I recommend you just give up.
 	Joke again, follow this:
 		1.Know how to read messeges from the website in console panel.
 		2.Observe network panel when website is loading so that you can realize where the data came from.
