@@ -43,17 +43,16 @@
 # 3. You should realize:
 ## It just a simple code, web scraping is more complex than you thought. If you are instersing in. Ask Professor or give up.
 >Just kidding, here is the direction:
->>
 	1.If you not familiar with website structure, you should learn it.(Keyword: html, css and javascript)
 	2.You should know what is html element.
 	3.You must know the difference between Static Webpage and Dynamic Webpage.
 	4.How to do html syntactic analysis.(In this case, we use python package beautifulSoup4)
 	5.How to do data cleaning.
 ## There are basic requirements for web scraping. If you want to know more, I recommend you just give up.
-	Joke again, follow this:
-		1.Know how to read messeges from the website in console panel.
-		2.Observe network panel when website is loading so that you can realize where the data came from.
-		3.Find ways to catch the information you want.
+>Joke again, follow this:
+	1.Know how to read messeges from the website in console panel.
+	2.Observe network panel when website is loading so that you can realize where the data came from.
+	3.Find ways to catch the information you want.
 
 # 4. Give up.
 
@@ -66,9 +65,9 @@
 
 # 6.Another version.
 ## I just release another version use undetected_chromedriver named website_scraper_another_ver.py.
-	-You must notice that this version just available in Windows Operation System.
-	-If you use others Operation System, ask god for help.
-	-Just kidding, follow this:
+### You must notice that this version just available in Windows Operation System.
+### If you use others Operation System, ask god for help.
+### Just kidding, follow this:
 		1.Delete the section i comment "#get chrome version, just available in Windows"
 		2.Check your browser version.
 		3.Edit this line: version = eval(resp.split(".")[0]), the variable "version" must same as your browser.
