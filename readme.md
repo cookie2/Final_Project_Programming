@@ -1,6 +1,6 @@
-0.Check if you have installed python3. If not, installed it.
+#0.Check if you have installed python3. If not, installed it.
 
-1.Make sure you have installed all packages this program required. 
+#1.Make sure you have installed all packages this program required. 
 	if not, follow this:
 		// Which package you should install, please refer to requirements.txt
 		windows:
@@ -33,13 +33,13 @@
 			pip install --upgrade ***package***
 			***when you have done, follow the messeges show on your terminal, restart it.***
 
-2.Before you run website_scraper.py/website_scraper_another_ver.py, you should know:
+#2.Before you run website_scraper.py/website_scraper_another_ver.py, you should know:
 	-Open this .py file by your IDE, such like Python IDLE, Visual Studio Code, Jupyter or something else.
 	-Read all the comments in this .py file.
 	-This example is for chrome user, if you are not, search on browser, how to change selenium setting for different browser.
 	-Cause my poor English, if you cannot understand what those comments meaning, you can contact me or research by yourself.
 
-3.You should realize it just an simple code, web scraping is more complex than you thought. If you are instersing in. Ask Professor or give up.
+#3.You should realize it just an simple code, web scraping is more complex than you thought. If you are instersing in. Ask Professor or give up.
 	Just kidding, here is the direction:
 		1.If you not familiar with website structure, you should learn it.(Keyword: html, css and javascript)
 		2.You should know what is html element.
@@ -52,17 +52,17 @@
 		2.Observe network panel when website is loading so that you can realize where the data came from.
 		3.Find ways to catch the information you want.
 
-4.Give up.
+#4.Give up.
 
-5.If you still insist, follow this:
+#5.If you still insist, follow this:
 	1.Research how the website backend works.
 	2.Research what is Communications Protocol.
 	3.Enhance your programming ability.
 	4.Know what is multithreading and how to use it.
 	5.Give up.
 
-6.
-I just release another version use undetected_chromedriver named website_scraper_another_ver.py.
+#6.
+#I just release another version use undetected_chromedriver named website_scraper_another_ver.py.
 But you must notice that this version just available in Windows Operation System.
 If you use others Operation System, ask god for help.
 Just kidding, follow this:
@@ -75,9 +75,9 @@ Just kidding, follow this:
 	4.This version also demonstrate how to use javascript to control website.
 	5.This version scrape target is udemy.
 
-7.Give up.
+#7.Give up.
 
-8.Before you run simple_text_mining.py, you should know:
+#8.Before you run simple_text_mining.py, you should know:
 	-Ensure your dataset is a csv file, because in this example, I use csv file as my dataset. 
 	-If you get error messeges, shut down your Laptop/PC and go to sleep.
 		Just kidding, follow this:
@@ -146,6 +146,6 @@ Just kidding, follow this:
 		visualisation = pyLDAvis.gensim.prepare(lda_model, corpus, id2word)
 		visualisation
 
-9.You still need to realize it just an simple code, Natural Language Processing is more complex than you thought. If you are instersing in. Ask Professor or give up.
+#9.You still need to realize it just an simple code, Natural Language Processing is more complex than you thought. If you are instersing in. Ask Professor or give up.
 
-10.I do not have any quotes, give up.
+#10.I do not have any quotes, give up.
