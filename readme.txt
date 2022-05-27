@@ -45,6 +45,8 @@
 			pip install --upgrade selenium
 			pip install --upgrade beautifulSoup4
 			pip install --upgrade webdriver_manager
+			
+			when you have done, follow the response show on your terminal, restart it.
 
 2.Before you run website_scraper.py, you should know:
 	-Open this .py file by your IDE, such like Python IDLE, Visual Studio Code, Jupyter or something else.
@@ -62,7 +64,7 @@
 	There are basic requirements for web scraping. If you want to know more, I recommend you just give up.
 	Joke again, follow this:
 		1.Know how to read messege from website in console panel.
-		2.Observe network panel when website is loading so that you can realize where does data came from.
+		2.Observe network panel when website is loading so that you can realize where the data came from.
 		3.Find ways to catch the information you want.
 
 4.Give up.
