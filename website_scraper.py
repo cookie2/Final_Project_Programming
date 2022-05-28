@@ -56,7 +56,7 @@ def handle_unacceptable_char(string):
 # find the html tag and clear it, edit this section to meet your needs
 def cus_resp(soup):
     result = []
-    # in this case, i get my target from element's class name, refer to the beautifulsoup4 document especially find functions
+    # in this case, i get my target from element's class name, refer to the beautifulsoup4 document, especially how to use 'find' functions
     for item in soup.find_all("div", class_="a-expander-content reviewText review-text-content a-expander-partial-collapse-content"):
         data_str = item.find_all("span")[-1].text
         # note: because  ',' may contain in review sentence, so we should handle it first or use  special characters as delimiter when you export your result as a csv file
