@@ -1,4 +1,4 @@
-# 0. Check if you have installed python3. If not, installed it.
+# 0. Check if you have installed python3. If not, install it.
 
 # 1. Make sure you have installed all the packages. 
 ## Which package you should install, please refer to "requirements.txt".
