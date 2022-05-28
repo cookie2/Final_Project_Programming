@@ -67,7 +67,7 @@
 
 # 6.Another version.
 ## I just release another version use undetected_chromedriver named website_scraper_another_ver.py.
-#### You must notice that this version just available on Windows Operation System.
+#### You must notice that this version is only available in the Windows Operation System.
 #### If you use others Operation System, ask god for help.
 #### Just kidding, follow this:
 	1.Delete the section I comment "# get chrome version, just available in Windows"
