@@ -23,6 +23,7 @@ try:
     resp = parser.GetFileVersion(r"C:\Program Files\Google\Chrome\Application\chrome.exe")
 except:
     resp = parser.GetFileVersion(r"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe")
+# declare a variable to store your google version
 version = eval(resp.split(".")[0])
 
 # set  up your driver
