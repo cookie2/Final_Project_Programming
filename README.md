@@ -1,6 +1,6 @@
 # 0. Check if you have installed python3. If not, installed it.
 
-# 1. Make sure you have installed all packages. 
+# 1. Make sure you have installed all the packages. 
 ## Which package you should install, please refer to "requirements.txt".
 ## If not, follow this:
 	windows:
@@ -34,22 +34,22 @@
 		***when you have done, follow the messeges show on your terminal, restart it.***
 
 # 2. Before you run website_scraper.py or website_scraper_another_ver.py.
-## You should do:
+## You should do that:
 	-Open this .py file by your IDE, such like Python IDLE, Visual Studio Code, Jupyter or something else.
-	-Read all the comments in this website_scraper.py.
+	-Read all the comments in website_scraper.py.
 ## You should know:
 	-This example is for chrome user, if you are not, search on browser, how to change selenium setting for different browser.
 	-Cause my poor English, if you cannot understand what those comments meaning, you can contact me or research by yourself.
 
 # 3. You should realize:
-## It just a simple code, web scraping is more complex than you thought. If you are instersing in. Ask Professor or give up.
+## It is just a simple code, web scraping is more complex than you thought. If you are instersing in. Ask Professor or give up.
 ### Just kidding, here is the direction:
-	1.If you not familiar with website structure, you should learn it.(Keyword: html, css and javascript)
+	1.If you not familiar with website structure, you should learn it.(Keyword: Html, Css and Javascript)
 	2.You should know what is html element.
 	3.You must know the difference between Static Webpage and Dynamic Webpage.
-	4.How to do html syntactic analysis.(In this case, we use python package beautifulSoup4)
+	4.How to do html syntactic analysis.(In this case, we use python package named beautifulSoup4)
 	5.How to do data cleaning.
-### Those are basic requirements for web scraping. If you want to know more, I recommend you just give up.
+### Those are basic requirements for web scraping. If you want to know more, I recommend you give up.
 ### Joke again, follow this:
 	1.Know how to read messeges from the website in console panel.
 	2.Observe network panel when website is loading so that you can realize where the data came from.
@@ -69,9 +69,9 @@
 #### You must notice that this version just available in Windows Operation System.
 #### If you use others Operation System, ask god for help.
 #### Just kidding, follow this:
-	1.Delete the section i comment "#get chrome version, just available in Windows"
+	1.Delete the section I comment "# get chrome version, just available in Windows"
 	2.Check your browser version.
-	3.Edit this line: version = eval(resp.split(".")[0]), the variable "version" must same as your browser.
+	3.Edit this line: version = eval(resp.split(".")[0]), the variable "version" must same as your browser version.
 		For example:
 			If your chrome version is 101, then your edition should be:
 				version = 101
@@ -81,7 +81,7 @@
 # 7. Give up.
 
 # 8. Before you run simple_text_mining.py
-## you should:
+## you should know:
 ### (1) Ensure your dataset is a csv file, because in this example, I use csv file as my dataset. 
 ### (2) If you get error messeges, shut down your Laptop/PC and go to sleep.
 ### (3) Just kidding, follow this:
@@ -102,7 +102,7 @@
 			python3 -m spacy download en_core_web_sm
 	Warning:
 		I am not sure if the commands for Linux are correct.
-		Because i haven't test it.
+		Because I have not test it.
 	Mac OS:
 		press command + space bar and type in terminal.
 		click the app icon to open a new terminal window.
@@ -114,7 +114,7 @@
 			python -m spacy download en_core_web_sm
 	Warning: 
 		I am not sure if the commands for Mac OS are correct.
-		Because i am so poor, cannot afford the Macbook.
+		Because I am so poor, cannot afford the Macbook.
 	If you use Jupyter, create a block and paste:
 		!pip install --upgrade ***package***
 		python -m spacy download en_core_web_sm
@@ -122,7 +122,7 @@
 		I am not suggest you use colab, cause it will has many problems.
 	warning:
 		I am not sure if the commands for Jupyter are correct.
-		Because i haven't test it.
+		Because I have not test it.
 		If you have any problems, contact me.
 	Else if you use Anaconda, find out your terminal and input those command:
 		pip install --upgrade ***package***
@@ -130,7 +130,7 @@
 		***when you have done, follow the messeges show on your terminal, restart it.***
 	warning:
 		I am not sure if the commands for Anaconda are correct.
-		Because i haven't test it.
+		Because I have not test it.
 		If you have any problems, contact me.
 ### (4) Read all the comments in this .py file.
 ### (5) If you cannot understand what those comments meaning or want to learn more detail about this code:
@@ -139,7 +139,7 @@
 	If there is a file named LDA_Visualization.html, it means your code run successfully.
 ### (7) Open LDA_Visualization.html with your browser, you can see the result.
 ### (8) If you use notebook like Colab or Jupyter, you can modify your visualization:
-###### change those code:
+###### change those codes:
 	visualisation = pyLDAvis.gensim_models.prepare(lda_model, corpus, id2word, mds = "mmds")
     pyLDAvis.save_html(visualisation, 'LDA_Visualization.html')
 ###### to:
